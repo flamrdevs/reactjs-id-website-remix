@@ -1302,7 +1302,9 @@ const Map = () => {
 
     let index = 0;
     while (index < length)
-      element.push(<circle cx={xy[index++]} cy={xy[index++]} r="0.25" />);
+      element.push(
+        <circle key={index} cx={xy[index++]} cy={xy[index++]} r="0.25" />,
+      );
 
     return element;
   }, []);
@@ -1346,6 +1348,7 @@ const Map = () => {
     for (const item of list) {
       element.push(
         <div
+          key={`${item.b}${item.l}`}
           className={className}
           style={{
             bottom: `${item.b}%`,
