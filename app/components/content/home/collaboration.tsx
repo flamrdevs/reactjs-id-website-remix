@@ -1330,11 +1330,11 @@ const Map = () => {
     const className = cn(
       "absolute bg-[#464F5D]",
       "p-1 md:p-1.5",
-      "size-[3rem] sm:size-[3.5rem] lg:size-[4.625rem]",
+      "size-[2.2rem] sm:size-[3.5rem] lg:size-[4.625rem]",
       [
-        "rounded-t-[3rem] sm:rounded-t-[3.5rem] lg:rounded-t-[4.625rem]",
-        "rounded-br-[3rem] sm:rounded-br-[3.5rem] lg:rounded-br-[4.625rem]",
-        "rounded-bl-[0.4rem] sm:rounded-bl-[0.5rem] lg:rounded-bl-[0.75rem]",
+        "rounded-t-[2.2rem] sm:rounded-t-[3.5rem] lg:rounded-t-[4.625rem]",
+        "rounded-br-[2.2rem] sm:rounded-br-[3.5rem] lg:rounded-br-[4.625rem]",
+        "rounded-bl-[0.3rem] sm:rounded-bl-[0.5rem] lg:rounded-bl-[0.75rem]",
       ],
       "shadow-xl",
     );
@@ -1355,7 +1355,7 @@ const Map = () => {
             left: `${item.l}%`,
           }}
         >
-          <div className="flex items-center justify-center p-1.5 md:p-2 size-full bg-[#353E4C] rounded-full">
+          <div className="flex items-center justify-center p-1 sm:p-1.5 lg:p-2 size-full bg-[#353E4C] rounded-full">
             {maybeAvatar}
           </div>
         </div>,
