@@ -15,7 +15,7 @@ export function Collaboration() {
           dengan
         </span>
         <img
-          className="my-1 w-[2rem] lg:w-[2.75rem]"
+          className="my-1 w-[2.25rem] lg:w-[3rem]"
           src="/images/reactjsid.svg"
           alt="ReactJS Indonesia Logo"
         />
